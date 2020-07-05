@@ -61,3 +61,19 @@
 1. RGB
     1. A. 黑色->白色 蓝色->黄色 绿色->红紫色 蓝绿色->红色
     1. B. 蓝色 | 绿色 = 蓝绿色    黄色 & 蓝绿色 = 绿色    红色 ^ 红紫色 = 蓝色
+1. inplace swap
+    1. step     \*x  \*y
+    1. start    a   b
+    1. step 1   a   a^b
+    1. step 2   b   a^b
+    1. step 3   b   a
+1. reverse array
+    1. first = k, last = k
+    1. 因为此时 x 和 y 指针指向同一个位置
+    1. [reverse-array.c](reverse-array.c)
+1. 掩码
+    1. A. x & 0xFF
+    1. B. x ^ ~0xFF
+    1. C. x | 0xFF
+1. bis bic
+    1. 
