@@ -76,4 +76,5 @@
     1. B. x ^ ~0xFF
     1. C. x | 0xFF
 1. bis bic
-    1. 
+    1. bool_or = bis(x,y)
+    1. bool_xor = bis(bic(x,y), bic(y,x))
